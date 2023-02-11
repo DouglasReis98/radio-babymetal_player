@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #000;
+}
+
+button{
+    background: none;
+    border: none;
+    border-radius: 30em;
+}
+
+#background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/babymetal-2023-the-other-one-era.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px);
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+}
+
+#radio-player{
+    background-color: rgb(39, 39, 39);
+    max-width: 30rem;
+    min-width: 20rem;
+    height: 30em;
+    color: rgb(255, 255, 255);
+}
+
+#radio-player h2, h3{
+    margin: 0 .5em;
+}
+
+#radio-player img{
+    width: 100%;
+}
+
+#controles{
+    margin: 1.2em 0;
+    width: 100%;
+    height: 5em;
+    display: flex;
+    padding: 0 .5em;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em 0;
+    flex-wrap: wrap;
+}
+
+#controles button{
+    width: 5em;
+    height: 3em;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+}
+
+#controles button:active{
+    background-color: #888888;
+}
+
+#volume {
+    width: 100%;
+}
+
+#volume input{
+    width: 77%;
+    margin: 0 auto;
+}
+
+#volume button{
+    width: 20%;
+}
+
+#volume input[type=range] {
+    appearance: none;
+    -webkit-appearance: none;
+    height: .3em;
+    background-color: rgb(255, 238, 0);
+    border-radius: 4em;
+}
+
+#volume input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: rgb(255, 238, 0);
+
+}
