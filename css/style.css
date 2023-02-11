@@ -70,8 +70,12 @@ button{
     background-color: #000;
 }
 
-#controles button:active{
+#controles button:hover{
     background-color: #888888;
+}
+
+#controles button:active{
+    background-color: rgb(255, 166, 0);
 }
 
 #volume {
