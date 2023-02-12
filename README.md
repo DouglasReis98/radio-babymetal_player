@@ -10,7 +10,7 @@
 * [Status do Projeto](#status-do-Projeto)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Linguagens utilizadas](#linguagens-utilizadas)
-* [Autor](#autor)
+* [Links do Autor](#links-do-autor)
 
 
 ## Descrição do Projeto
