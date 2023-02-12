@@ -9,7 +9,7 @@
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Status do Projeto](#status-do-Projeto)
 * [Acesso ao Projeto](#acesso-ao-projeto)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Linguagens utilizadas](#linguagens-utilizadas)
 * [Autor](#autor)
 
 
