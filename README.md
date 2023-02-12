@@ -9,7 +9,7 @@
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Status do Projeto](#status-do-Projeto)
 * [Acesso ao Projeto](#acesso-ao-projeto)
-* [Linguagens utilizadas](#linguagens-utilizadas)
+* [Linguagens Utilizadas](#linguagens-Utilizadas)
 * [Links do Autor](#links-do-autor)
 
 
@@ -26,7 +26,7 @@ Sujeito a atualizações.
  - [Link para acessar o projeto.](https://douglasreis98.github.io/radio-babymetal_player/)
  - [Link para acessar o código-fonte.](https://github.com/DouglasReis98/radio-babymetal_player)
 
-## Linguagens Usadas
+## Linguagens Utilizadas
 
 - HMTL5
 - CSS3
