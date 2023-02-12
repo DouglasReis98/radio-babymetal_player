@@ -42,8 +42,12 @@ button{
     color: rgb(255, 255, 255);
 }
 
-#radio-player h2, h3{
+#radio-player h2{
     margin: 0 .5em;
+}
+
+#radio-player h3{
+    margin: 0 .6em;
 }
 
 #radio-player img{
@@ -60,6 +64,10 @@ button{
     align-items: center;
     gap: 2em 0;
     flex-wrap: wrap;
+}
+
+#radio-player h4{
+    margin: .3em .8em;
 }
 
 #controles button{

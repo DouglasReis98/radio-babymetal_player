@@ -17,19 +17,20 @@
 
     <div id="container">
         <div id="radio-player">
-            <audio id="player" src="https://stream-50.zeno.fm/fr9rzsudckhvv?zs=00hm7vjmSEOTYuXYlDV95g" type="audio/mpeg" ></audio>
+            <audio id="player" src="https://stream-50.zeno.fm/fr9rzsudckhvv?zs=00hm7vjmSEOTYuXYlDV95g" type="audio/mpeg" autoplay></audio>
             <img src="img/babymetal-2023-the-other-one-era.jpg" alt="">
 
             <h2>Rádio Online BABYMETAL</h2>
-            <h3>Música Tocando:</h3>
+            <h3>BABYMETAL 24h</h3>
             
             <div id="controles">
                 <button id="btnPlay"><i class="fa-solid fa-play"></i></button>
                 <button id="btnPause"><i class="fa-solid fa-pause"></i></button>
                 <button id="btnStop"><i class="fa-solid fa-stop"></i></button>
                 <div id="volume">
+                    <h4>Volume:</h4>
                 <button type="button" id="btnVol"><i class="fa-solid fa-volume-high"></i></button>
-                <input type="range" name="volume" min="0" max="100" value="100">
+                <input id="ctrlVol" type="range" name="volume" min="0" max="1" step="0.1" value="1">
                 </div>
             </div>
         </div>
