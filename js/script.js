@@ -4,6 +4,7 @@ const btnPause = document.getElementById("btnPause");
 const btnStop = document.getElementById("btnStop");
 const ctrlVol = document.getElementById("ctrlVol");
 const btnVol = document.getElementById("btnVol");
+const currentVol = ctrlVol.value;
 console.log(btnPlay)
 
 
@@ -28,8 +29,14 @@ ctrlVol.addEventListener("input", function() {
 btnVol.addEventListener("click", function() {
     if (player.muted != true) {
         player.muted = true;
+        player.volume = ctrlVol.value = 0;
+        btnVol.getElementsByTagName("i")[0].classList.remove('fa-volume-high');
+        btnVol.getElementsByTagName("i")[0].classList.add('fa-volume-xmark');
     } else {
         player.muted = false;
+        player.volume = ctrlVol.value = currentVol;
+        btnVol.getElementsByTagName("i")[0].classList.remove('fa-volume-xmark');
+        btnVol.getElementsByTagName("i")[0].classList.add('fa-volume-high');
     }
 
 });
