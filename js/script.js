@@ -5,8 +5,6 @@ const btnStop = document.getElementById("btnStop");
 const ctrlVol = document.getElementById("ctrlVol");
 const btnVol = document.getElementById("btnVol");
 const currentVol = ctrlVol.value;
-console.log(btnPlay)
-
 
 btnPlay.addEventListener("click", function() {
     player.play();
