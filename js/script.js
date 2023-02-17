@@ -18,6 +18,7 @@ btnStop.addEventListener("click", function() {
     player.pause();
     player.currentTime = 0;
     player.load();
+    player.autoplay = false;
 });
 
 ctrlVol.addEventListener("input", function() {
