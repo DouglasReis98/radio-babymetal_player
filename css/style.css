@@ -17,7 +17,7 @@ button{
 #background{
     width: 100%;
     height: 100vh;
-    background-image: url(../img/babymetal-2023-the-other-one-era.jpg);
+    background-image: url(../img/babymetal-2023-the-other-one-era.png);
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(10px);
@@ -35,10 +35,10 @@ button{
 }
 
 #radio-player{
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(236, 0, 0);
     max-width: 30rem;
     min-width: 20rem;
-    height: 30em;
+    height: auto;
     color: rgb(255, 255, 255);
 }
 
@@ -57,7 +57,7 @@ button{
 #controles{
     margin: 1.2em 0;
     width: 100%;
-    height: 5em;
+    height: auto;
     display: flex;
     padding: 0 .5em;
     justify-content: space-between;
@@ -75,11 +75,11 @@ button{
     height: 3em;
     color: #fff;
     cursor: pointer;
-    background-color: #000;
+    background-color: #610000;
 }
 
 #controles button:hover{
-    background-color: #888888;
+    background-color: #ffc400;
 }
 
 #controles button:active{
