@@ -28,7 +28,7 @@ Sujeito a atualizações.
 
 ## Linguagens Utilizadas
 
-- HMTL5
+- HTML5
 - CSS3
 - JavaScript
 
